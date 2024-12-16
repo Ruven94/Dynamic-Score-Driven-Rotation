@@ -1,6 +1,6 @@
 # Dynamic Score-Driven Rotation Estimation
 
-This repository implements a dynamic score-driven rotation model using BEKK GARCH residuals and a t-distributed likelihood. The code provides:
+This repository implements a dynamic score-driven rotation model by Hafner & Herwartz (2023)
 
 1. **Helper Functions**: For matrix operations, likelihood calculations, scoring, and gradients.
 2. **Dynamic Estimation**: A routine to estimate parameters using a grid search followed by optimization via `maxBHHH`.
